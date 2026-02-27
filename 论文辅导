@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国内艺术设计类研究生学术辅导 - 官方报价单</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700;900&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --seal-red: #b22222; 
+            --ink-black: #1a1a1a;
+            --paper-white: #fdfcf8;
+            --stone-gray: #f2f1eb;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: var(--paper-white);
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            color: var(--ink-black);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .serif-font { font-family: 'Noto Serif SC', serif; }
+
+        /* 顶部装饰线 */
+        .top-line {
+            height: 4px;
+            background-color: var(--ink-black);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* 模拟印章 */
+        .seal {
+            border: 3px solid var(--seal-red);
+            padding: 2px;
+            display: inline-block;
+        }
+        .seal-inner {
+            border: 1px solid var(--seal-red);
+            color: var(--seal-red);
+            padding: 8px 4px;
+            writing-mode: vertical-rl;
+            font-weight: 900;
+            letter-spacing: 0.1em;
+            font-size: 1.25rem;
+        }
+
+        /* 标题排版 */
+        .main-title {
+            letter-spacing: 0.5em;
+            line-height: 1.6;
+            margin-right: -0.5em; /* 抵消最后一个字的间距 */
+        }
+
+        /* 表格样式 */
+        .classic-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-top: 2px solid var(--ink-black);
+            border-bottom: 2px solid var(--ink-black);
+        }
+        .classic-table th {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-weight: 700;
+            background-color: rgba(0,0,0,0.02);
+        }
+        .classic-table td {
+            padding: 24px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* 价格强调 */
+        .price-focus {
+            color: var(--seal-red);
+            font-family: 'Noto Serif SC', serif;
+            font-weight: 700;
+        }
+
+        /* 卡片设计 */
+        .module-card {
+            background: white;
+            border: 1px solid #e8e8e8;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        .module-card:hover {
+            border-color: var(--seal-red);
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+        }
+
+        .section-num {
+            writing-mode: vertical-rl;
+            background: var(--ink-black);
+            color: white;
+            padding: 10px 4px;
+            font-size: 11px;
+            letter-spacing: 0.2em;
+        }
+    </style>
+</head>
+<body class="pb-24">
+
+    <div class="top-line"></div>
+
+    <!-- Header Section -->
+    <header class="max-w-4xl mx-auto text-center pt-24 pb-32 px-6">
+        <div class="seal mb-12">
+            <div class="seal-inner serif-font">学术辅导</div>
+        </div>
+        <h1 class="main-title serif-font text-3xl md:text-5xl font-bold mb-8">国内艺术设计类研究生<br>学术辅导方案与报价</h1>
+        <div class="flex items-center justify-center space-x-6">
+            <div class="h-[1px] w-12 bg-gray-300"></div>
+            <p class="text-[10px] md:text-xs text-gray-400 tracking-[0.4em] uppercase serif-font font-light">
+                Professional Guidance for Art & Design Postgraduates
+            </p>
+            <div class="h-[1px] w-12 bg-gray-300"></div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6">
+
+        <!-- Commitments Section -->
+        <section class="grid md:grid-cols-3 gap-12 mb-32">
+            <div class="text-center md:text-left">
+                <div class="inline-block border-b-2 border-red-800 pb-1 mb-4">
+                    <h3 class="serif-font font-bold text-lg tracking-widest">学术诚信</h3>
+                </div>
+                <p class="text-xs text-gray-500 leading-loose">
+                    恪守教育部及艺术院校学术规范，仅提供逻辑引导、方法论支撑。我们也深知创作的独特性，<span class="text-red-800 font-bold">绝不代写代做</span>。
+                </p>
+            </div>
+            <div class="text-center md:text-left">
+                <div class="inline-block border-b-2 border-gray-900 pb-1 mb-4">
+                    <h3 class="serif-font font-bold text-lg tracking-widest">一对一方案</h3>
+                </div>
+                <p class="text-xs text-gray-500 leading-loose">
+                    针对视传、工业、环艺、服装、数媒等全设计专业方向，匹配专业对口导师，拒绝千篇一律的流水线指导。
+                </p>
+            </div>
+            <div class="text-center md:text-left">
+                <div class="inline-block border-b-2 border-gray-300 pb-1 mb-4">
+                    <h3 class="serif-font font-bold text-lg tracking-widest">隐私安全</h3>
+                </div>
+                <p class="text-xs text-gray-500 leading-loose">
+                    严格执行数据脱敏与加密协议，保障您的课题选题、创作实践图表等核心数据在答辩/发布前的绝对安全性。
+                </p>
+            </div>
+        </section>
+
+        <!-- I. Project Based -->
+        <section class="mb-32">
+            <div class="flex items-center mb-10">
+                <span class="bg-red-800 text-white p-2 serif-font text-sm font-bold">壹</span>
+                <h2 class="serif-font text-2xl font-bold tracking-[0.2em] ml-6 italic">项目制全流程辅导</h2>
+            </div>
+            
+            <div class="overflow-x-auto">
+                <table class="classic-table">
+                    <thead>
+                        <tr class="text-xs text-gray-400 tracking-[0.2em] uppercase">
+                            <th class="py-6">辅导阶段说明</th>
+                            <th class="py-6 text-center">硕士 (M.A./MFA)</th>
+                            <th class="py-6 text-center">博士 (Ph.D)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="serif-font">
+                        <tr>
+                            <td>
+                                <div class="font-bold text-lg mb-1 tracking-widest">开题阶段</div>
+                                <div class="text-[10px] text-gray-400 font-normal">选题建议 / 文献综述梳理 / 逻辑框架</div>
+                            </td>
+                            <td class="text-center"><span class="price-focus text-2xl">¥1,685</span></td>
+                            <td class="text-center"><span class="price-focus text-2xl">¥3,629</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="font-bold text-lg mb-1 tracking-widest">论文主体写作</div>
+                                <div class="text-[10px] text-gray-400 font-normal">章节结构 / 创作实践理论化 / 论点校准</div>
+                            </td>
+                            <td class="text-center"><span class="price-focus text-2xl">¥3,629</span></td>
+                            <td class="text-center"><span class="price-focus text-2xl">¥7,258</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="font-bold text-lg mb-1 tracking-widest">盲审与答辩冲刺</div>
+                                <div class="text-[10px] text-gray-400 font-normal">学术语言润色 / PPT逻辑 / 模拟答辩</div>
+                            </td>
+                            <td class="text-center"><span class="price-focus text-2xl">¥1,944</span></td>
+                            <td class="text-center"><span class="price-focus text-2xl">¥3,629</span></td>
+                        </tr>
+                        <tr class="bg-stone-50">
+                            <td>
+                                <div class="font-black text-xl tracking-[0.3em] text-red-900">全程托管式辅导</div>
+                                <div class="text-[10px] text-gray-500 mt-2">从零起点到答辩结束 · 节点式把控</div>
+                            </td>
+                            <td class="text-center"><span class="price-focus text-4xl font-black italic">¥6,221</span></td>
+                            <td class="text-center"><span class="price-focus text-4xl font-black italic">¥12,960</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- II. Hourly & Single Modules -->
+        <section class="grid md:grid-cols-2 gap-12 mb-32">
+            <div>
+                <div class="flex items-center mb-10">
+                    <span class="bg-stone-900 text-white p-2 serif-font text-sm font-bold">贰</span>
+                    <h2 class="serif-font text-2xl font-bold tracking-[0.2em] ml-6 italic">灵活课时制</h2>
+                </div>
+                <div class="space-y-6">
+                    <div class="module-card p-8 relative overflow-hidden">
+                        <div class="absolute right-0 top-0 section-num">MASTERS</div>
+                        <h4 class="text-gray-400 text-xs tracking-widest mb-4">硕士标准课时</h4>
+                        <div class="flex items-baseline mb-4">
+                            <span class="price-focus text-4xl">¥389</span>
+                            <span class="text-gray-400 text-xs ml-3">/ 45-60min</span>
+                        </div>
+                        <p class="text-[10px] text-gray-400 italic">3课时特惠包：¥1,037</p>
+                    </div>
+                    <div class="module-card p-8 relative overflow-hidden">
+                        <div class="absolute right-0 top-0 section-num">DOCTORAL</div>
+                        <h4 class="text-gray-400 text-xs tracking-widest mb-4">博士标准课时</h4>
+                        <div class="flex items-baseline mb-4">
+                            <span class="price-focus text-4xl">¥648</span>
+                            <span class="text-gray-400 text-xs ml-3">/ 45-60min</span>
+                        </div>
+                        <p class="text-[10px] text-gray-400 italic">3课时特惠包：¥1,685</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center mb-10">
+                    <span class="bg-stone-400 text-white p-2 serif-font text-sm font-bold">叁</span>
+                    <h2 class="serif-font text-2xl font-bold tracking-[0.2em] ml-6 italic">单项专项辅导</h2>
+                </div>
+                <div class="divide-y divide-gray-100 bg-white/50 px-4 border border-gray-100">
+                    <div class="py-4 flex justify-between text-xs tracking-widest">
+                        <span class="text-gray-600">选题价值深度挖掘</span>
+                        <span class="serif-font font-bold">硕¥389 / 博¥648</span>
+                    </div>
+                    <div class="py-4 flex justify-between text-xs tracking-widest">
+                        <span class="text-gray-600">开题框架深度建议</span>
+                        <span class="serif-font font-bold">硕¥518 / 博¥1,166</span>
+                    </div>
+                    <div class="py-4 flex justify-between text-xs tracking-widest">
+                        <span class="text-gray-600">单章节内容逻辑梳理</span>
+                        <span class="serif-font font-bold">硕¥389 / 博¥778</span>
+                    </div>
+                    <div class="py-4 flex justify-between text-xs tracking-widest">
+                        <span class="text-gray-600">主体写作及实践指导</span>
+                        <span class="serif-font font-bold">硕¥2,592 / 博¥5,184</span>
+                    </div>
+                    <div class="py-4 flex justify-between text-xs tracking-widest">
+                        <span class="text-gray-600">1v1全仿真模拟答辩</span>
+                        <span class="serif-font font-bold">硕¥389 / 博¥648</span>
+                    </div>
+                </div>
+                <p class="mt-6 text-center text-[10px] text-gray-400">同时预约任意两项单项服务，享 <span class="text-red-800 font-bold">9折</span> 特惠</p>
+            </div>
+        </section>
+
+        <!-- IV. Journal -->
+        <section class="mb-32">
+            <div class="bg-stone-900 text-white p-12 md:p-20 relative overflow-hidden group">
+                <div class="absolute top-0 right-0 w-1/4 h-full bg-red-800/10 transition-transform duration-700 group-hover:scale-110"></div>
+                <div class="relative z-10 flex flex-col md:flex-row md:items-end justify-between">
+                    <div>
+                        <div class="flex items-center mb-6">
+                            <span class="bg-red-800 text-white p-2 serif-font text-xs font-bold">肆</span>
+                            <span class="serif-font text-xs font-bold tracking-[0.3em] ml-4 text-red-500">JOURNAL TUTORING</span>
+                        </div>
+                        <h2 class="serif-font text-3xl md:text-4xl font-bold tracking-[0.4em] mb-6 leading-tight">期刊论文专项辅导</h2>
+                        <p class="text-gray-400 text-sm max-w-md leading-loose tracking-widest">
+                            针对艺术设计类学术期刊 (CSSCI/北核) 的投稿逻辑、学术规范、创新点凝练进行深度引导。
+                        </p>
+                    </div>
+                    <div class="text-right mt-12 md:mt-0">
+                        <div class="price-focus text-6xl text-white font-black">¥1,944</div>
+                        <div class="text-[10px] text-gray-500 mt-4 tracking-widest">每篇基准辅导价</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-4xl mx-auto border-t border-gray-200 pt-20 pb-12 text-center">
+        <div class="mb-10 flex justify-center space-x-4">
+            <div class="w-1.5 h-1.5 rounded-full bg-red-800"></div>
+            <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+            <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+        </div>
+        <p class="serif-font text-gray-400 text-xs tracking-[0.6em] mb-4">研精思覃 · 艺海拾贝</p>
+        <p class="text-[9px] text-gray-300 uppercase tracking-widest">
+            © 2026 Academic Advisory Team for Art Design & Fashion Library
+        </p>
+    </footer>
+
+</body>
+</html>
